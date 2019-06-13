@@ -32,7 +32,9 @@ Don't forget to enable VCMI Essentials.
 Finally launch the game with button on the bottom left.
 
 If you want to add savegames, do all of the above, then go to the Saves folder in your host machine 
-and go to `[your username]/.local/share/vcmi/Saves` and copy the saves.
+and go to:
+`[your username]/.local/share/vcmi/Saves` 
+and copy the saves.
 
 If you want to add maps copy them in the Maps folder, the container will see them.
 
