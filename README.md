@@ -52,7 +52,7 @@ $ docker pull czakoilevente/heroes
   
 Create a container from it with the following command:
 ```
-$x11docker -i -p --size [resolution in pixels like 800x600] -- -v [path to maps]:/h3/Maps -v [path to saves]:/h3/Games -- czakoilevente/heroes
+$ x11docker -i -p --size [resolution in pixels like 800x600] -- -v [path to maps]:/h3/Maps -v [path to saves]:/h3/Games -- czakoilevente/heroes
 ```
 
 When the container is ready give this command:
