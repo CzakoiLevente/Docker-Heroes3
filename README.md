@@ -1,5 +1,9 @@
 # Docker-Heroes3
 
+During the FedEx-day 24 hour coding challenge our 3 member team aimed the goal to create a conainerized Heroes3 application.
+
+### Features
+  - The apllication is able to use saved games using volumes.
 
 
 ## How to use the images:
