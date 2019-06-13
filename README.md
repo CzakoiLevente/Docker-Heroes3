@@ -57,7 +57,7 @@ $x11docker -i -p --size [resolution in pixels like 800x600] -- -v [path to maps]
 
 When the container is ready give this command:
 
-```wine HD_Launcher.exe 
+```$ wine HD_Launcher.exe 
 ```
 
 Then, install the dependencies (mono, gecko, .NET). Check the settings, then launch the game.
