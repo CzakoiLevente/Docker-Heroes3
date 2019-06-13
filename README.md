@@ -4,7 +4,7 @@ During the FedEx-day 24 hour coding challenge our 3 member team aimed the goal t
 
 ### Features
   - The apllication is able to use saved games using volumes.
-
+  - GUI using [x11docker](https://github.com/mviereck/x11docker) 
 
 ## How to use the images:
 
