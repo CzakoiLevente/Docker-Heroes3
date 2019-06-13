@@ -10,23 +10,20 @@
   - Pull the image from dockerhub:
   
   ```
-$ docker pull czakoilevente/vcmi
-  
+$ docker pull czakoilevente/vcmi  
   ```
 
   - Create a container from it with the following command:
 
 ```
-x11docker -i -p --size [resolution in pixels like 800x600] -- -v [path to maps]:/usr/share/vcmi/Maps -v [path to saves]:/fakehome -- czakoilevente/vcmi
-  
+x11docker -i -p --size [resolution in pixels like 800x600] -- -v [path to maps]:/usr/share/vcmi/Maps -v [path to saves]:/fakehome -- czakoilevente/vcmi  
   ```
 
   - Do some majick with the following commands:
   
   ```
 $ export PATH=$PATH:/usr/games
-$ vcmilauncher
-  
+$ vcmilauncher  
   ```
   
 After the last command the VCMI launcher should appear in the window opened by the first command. 
@@ -50,8 +47,7 @@ the videos and most of the music files are not included in the image file to mak
 Pull the image from dockerhub:
 
  ```
-$ docker pull czakoilevente/heroes
-  
+$ docker pull czakoilevente/heroes  
   ```
   
 Create a container from it with the following command:
@@ -61,6 +57,7 @@ $x11docker -i -p --size [resolution in pixels like 800x600] -- -v [path to maps]
 
 When the container is ready give this command:
 
-```wine HD_Launcher.exe ```
+```wine HD_Launcher.exe 
+```
 
 Then, install the dependencies (mono, gecko, .NET). Check the settings, then launch the game.
